@@ -22,14 +22,30 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   font-weight: 400;
-  padding: 50px 450px;
 }
-.image {
-  margin: 50px 0;
+section {
+  padding: 100px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+section img {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
 }
 .content {
-  /* max-width: 750px; */
-  margin: 0 120px;
+  width: 80%;
+  margin: 0 auto;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+.content p{
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 1.7em;
 }
 .bold {
   font-weight: bolder;
