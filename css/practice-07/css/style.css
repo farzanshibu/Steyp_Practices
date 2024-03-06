@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #160647;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #160647;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#home {
+  height: 100px;
+  display: inline;
+}
+#home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  font-family: "Circular-Std-Bold";
+  font-size: 18px;
+  margin: 0 60px;
+}
+#home header div.left {
+}
+#home header div.left h1 {
+  width: 80%;
+  margin: 0 auto;
+}
+#home header div.left h1 a {
+  display: block;
+  width: 100%;
+}
+#home header div.left h1 a img {
+  display: block;
+  width: 100%;
+}
+#home header div.middle {
+}
+#home header div.middle ul {
+  display: flex;
+  align-items: center;
+}
+#home header div.middle ul li {
+  margin-right: 30px;
+}
+#home header div.middle ul li:last-child {
+  margin-right: 0;
+}
+#home header div.middle ul li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+#home header div.right {
+}
+#home header div.right ul {
+  display: flex;
+  align-items: center;
+}
+#home header div.right ul li {
+  margin-right: 30px;
+}
+#home header div.right ul li:last-child {
+  margin-right: 0;
+}
+#home header div.right ul li a {
+  display: block;
+}
+#home header div.right ul li a.button {
+  color: white;
+  background-color: #160647;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+#spotlight {
+  padding-top: 100px;
+  font-family: "Circular-Std-Bold";
+  text-align: center;
+  margin: 0 auto;
+  background: url(../images/strip.png) no-repeat;
+  background-position: bottom 80px right 0px;
+}
+#spotlight h1 {
+  font-size: 101px;
+  width: 100%;
+}
+#spotlight p {
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+#spotlight ul {
+  margin-top: 100px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+#spotlight ul li {
+  text-align: left;
+  width: 48%;
+}
+#spotlight ul li div.image-container {
+  display: block;
+}
+
+#spotlight ul li img {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 10px 22px 63px -21px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+#spotlight ul li h3 {
+  padding-top: 60px;
+  font-size: 47px;
+}
+#spotlight ul li p {
+  font-size: 20px;
+  font-family: "Circular-Std-Regular";
+  font-weight: 600;
+  line-height: 25px;
+}
