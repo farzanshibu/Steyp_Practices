@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #282a39;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #282a39;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+:root {
+  --primary-color: #282a39;
+  --secondary-color: #fff2fd;
+}
+#spotlight {
+  background-color: var(--secondary-color);
+  height: 100vh;
+}
+#spotlight h1 {
+  font-size: 50px;
+  width: 40%;
+  margin-bottom: 20px;
+  font-family: "Circular-Std-Bold";
+  color: var(--primary-color);
+}
+#spotlight ul {
+  display: flex;
+  height: 750px;
+  justify-content: space-between;
+
+}
+#spotlight ul li {
+  width: 30%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+#spotlight ul li:nth-child(1) {
+  align-self: end;
+}
+#spotlight ul li:nth-child(2) {
+  align-self: center;
+}
+#spotlight ul li:nth-child(3) {
+  align-self: start;
+}
+
+#spotlight ul li div.image-container {
+  display: block;
+}
+#spotlight ul li div.image-container img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}
+#spotlight ul li h6 {
+  font-size: 24px;
+  font-family: "Circular-Std-Bold";
+  color: var(--primary-color);
+  line-height: 35px;
+}
+#spotlight ul li p {
+  margin-top: 20px;
+  color: var(--primary-color);
+  list-style: 10px;
+}
