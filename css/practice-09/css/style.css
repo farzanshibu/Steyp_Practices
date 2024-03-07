@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #1c2c40;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+:root {
+  --primary-color: #0a083a;
+}
+#home {
+  display: flex;
+  height: 100px;
+}
+#home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home header h1 {
+  width: 100px;
+}
+#home header h1 a {
+  display: block;
+}
+#home header h1 a img {
+  display: block;
+  width: 100%;
+}
+#home header nav {
+  color: lightgray;
+  font-family: "Circular-Std-Bold";
+}
+#home header nav ul {
+  display: flex;
+}
+#home header nav ul li {
+  margin-right: 40px;
+  padding: 5px;
+}
+#home header nav ul li:last-child {
+  margin-right: 0;
+}
+#home header nav ul li a {
+  display: block;
+}
+#home header div.starter {
+  font-family: "Circular-Std-Bold";
+}
+#home header div.starter ul {
+  display: flex;
+  align-items: center;
+}
+#home header div.starter ul li {
+  margin-right: 60px;
+  padding: 5px;
+}
+#home header div.starter ul li:last-child {
+  margin-right: 0;
+}
+#home header div.starter ul li a {
+  display: block;
+}
+#home header div.starter ul li a.button {
+  color: blue;
+  padding: 15px 20px;
+  border: 1px solid gray;
+  border-radius: 35px;
+}
+#spotlight {
+  color: var(--primary-color);
+}
+#spotlight div.main {
+  display: flex;
+}
+#spotlight div.text-container {
+  padding: 150px 160px;
+  width: 50%;
+}
+#spotlight div.text-container h1 {
+  font-family: "Circular-Std-Bold";
+  font-size: 78px;
+  margin-bottom: 30px;
+}
+#spotlight div.text-container p b {
+  font-family: "Circular-Std-Bold";
+}
+#spotlight div.text-container p {
+  margin: 15px 0;
+  color: gray;
+  width: 60%;
+  font-size: 20px;
+}
+#spotlight div.text-container a.button {
+  background-color: blue;
+  padding: 15px 50px;
+  display: inline-block;
+  border-radius: 40px;
+  margin: 15px 0;
+  color: white;
+}
+#spotlight div.text-container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 7px;
+}
+#spotlight div.text-container ul li {
+  display: flex;
+  align-items: center;
+}
+#spotlight div.text-container ul li img {
+  width: 20px;
+}
+#spotlight div.text-container ul li span {
+  display: inline-block;
+  height: 100%;
+  margin-left: 15px;
+  color: gray;
+  font-size: 14px;
+  font-family: "Circular-Std-Bold";
+}
+#spotlight div.image-container {
+  position: relative;
+  height: 800px;
+  width: 50%;
+}
+#spotlight div.image-container div.graybox {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  background-color: lightgray;
+  right: 0;
+  bottom: 0;
+}
+#spotlight div.image-container div.bluebox {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background-color: var(--primary-color);
+  left: 0;
+  bottom: 80px;
+  z-index: 7;
+  color: white;
+  font-family: "Circular-Std-Bold";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+}
+#spotlight div.image-container img.quote {
+  position: absolute;
+  width: 40px;
+  top: 0;
+  left: -23px;
+}
+#spotlight div.image-container div.bluebox h4 {
+  width: 95%;
+}
+#spotlight div.image-container div.bluebox h5 {
+  align-self: baseline;
+}
+#spotlight div.image-container div.bluebox h5 span {
+  margin-top: 5px;
+  color: lightgray;
+  display: block;
+}
+#spotlight div.image-container img.girl {
+  width: 550px;
+  height: 700px;
+  position: absolute;
+  z-index: 5;
+  right: 140px;
+  bottom: 80px;
+}
+#spotlight div.image-container img.mesh {
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+  z-index: 3;
+}
