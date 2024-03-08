@@ -1,0 +1,928 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #000;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+::placeholder {
+  color: #9b9b9b;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+::-ms-input-placeholder {
+  color: #9b9b9b;
+}
+#home {
+  height: 100px;
+  display: flex;
+}
+#home header {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home header h1 {
+  width: 150px;
+}
+#home header h1 a {
+  display: block;
+}
+#home header h1 a img {
+  display: block;
+  width: 100%;
+}
+#home header ul {
+  display: flex;
+  align-items: center;
+}
+#home header ul li {
+  margin-right: 50px;
+}
+#home header ul li:last-child {
+  margin-right: 0;
+}
+#home header ul li a {
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 5px;
+}
+
+#home header ul.right li a.button {
+  display: block;
+  padding: 7px 15px;
+  background-color: #ffe4da;
+  color: #ff794b;
+  font-weight: 600;
+  border-radius: 7px;
+}
+#spotlight {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#spotlight main {
+  display: flex;
+  justify-content: right;
+}
+#spotlight div.hero-content {
+  width: 27%;
+}
+#spotlight div.hero-content h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#spotlight div.hero-content p {
+  font-size: 20px;
+  font-weight: 600;
+  width: 75%;
+  margin: 40px 0;
+}
+#spotlight div.hero-content form {
+  margin-top: 50px;
+  display: flex;
+  width: 80%;
+  margin-bottom: 50px;
+}
+#spotlight div.hero-content form input {
+  padding: 20px 30px;
+  width: 75%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#spotlight div.hero-content form button {
+  display: block;
+  position: relative;
+  right: 20px;
+  width: 35%;
+  padding: 12px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+#spotlight div.hero-image {
+  position: relative;
+  width: 55%;
+}
+#spotlight div.hero-image img {
+  display: inline-block;
+}
+#spotlight div.hero-image img.main-hero {
+  width: 700px;
+}
+#spotlight div.hero-image img.dotted-curve {
+  width: 100px;
+  top: -20px;
+  left: 235px;
+  position: absolute;
+  z-index: 3;
+}
+#spotlight div.hero-image div.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ff794b;
+  top: -70px;
+  left: 345px;
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#spotlight div.hero-image div.circle img.play {
+  width: 10px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(31deg)
+    brightness(114%) contrast(103%);
+}
+div.trusted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px 0;
+}
+div.trusted div.image-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+#features {
+}
+#features ul {
+}
+#features ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+  padding: 0 15%;
+  margin: 30px 0;
+}
+#features ul li div.left {
+  width: 55%;
+  display: block;
+}
+#features ul li div.left img {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+}
+#features ul li div.right {
+  width: 38%;
+}
+#features ul li div.right span.label {
+  display: block;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0 0 30px;
+}
+#features ul li div.right div.content {
+  width: 100%;
+}
+#features ul li div.right span.label img {
+  margin: 0;
+}
+#features ul li div.right h2 {
+  font-size: 49px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#features ul li div.right p {
+  font-size: 18px;
+  font-weight: 600;
+  width: 80%;
+  margin: 10px 0;
+}
+#features ul li div.right a {
+}
+#features ul li div.right a.button {
+  display: inline-block;
+  color: white;
+  border-radius: 7px;
+  font-weight: 600;
+  padding: 12px 15px;
+  background-color: blue;
+  margin: 20px 0;
+}
+#features ul li div.right .dotted-line {
+  margin: 30px 0;
+  height: 1px;
+  width: 230px;
+  border-bottom: 1px dashed gray;
+}
+#features ul li div.right h6 {
+  font-size: 16px;
+  width: 80%;
+  margin: 20px 0;
+}
+#features ul li div.right span {
+}
+#features ul li div.right span b {
+  font-weight: 700;
+}
+#features ul li div.right img {
+  display: block;
+  margin: 20px 0 0;
+}
+.graybg {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+#features ul li div.right span.label.orangebg {
+  background-color: #ff794b;
+}
+#features ul li div.right span.label.yellowbg {
+  background-color: #ffc836;
+}
+#features ul li div.right span.label.greenbg {
+  background-color: #3dd278;
+}
+#leading-brands {
+  margin: 150px 0;
+}
+#leading-brands h3 {
+  font-weight: 700;
+  font-size: 45px;
+  width: 600px;
+  margin: 50px 0;
+}
+#leading-brands ul {
+  display: flex;
+  justify-content: space-between;
+}
+#leading-brands ul li {
+  width: 30%;
+}
+#leading-brands ul li div.image-container {
+  display: block;
+  position: relative;
+}
+#leading-brands ul li div.image-container img.review {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+#leading-brands ul li div.circle {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 4;
+}
+#leading-brands ul li div.circle img.play {
+  display: block;
+  width: 12px;
+}
+#leading-brands ul li div.rectangle {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  z-index: 4;
+}
+#leading-brands ul li div.rectangle img {
+  display: block;
+}
+#leading-brands ul li p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+#managerment {
+  margin: 150px 0;
+}
+#managerment ul {
+  padding: 150px 0;
+  display: flex;
+  justify-content: space-between;
+}
+#managerment ul li {
+  width: 47%;
+}
+#managerment ul li div.image-container {
+  display: block;
+  position: relative;
+}
+#managerment ul li div.image-container img.director {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+#managerment ul li div.image-container div.rectangle {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 230px;
+  left: 20px;
+  z-index: 4;
+}
+#managerment ul li div.image-container div.rectangle img.logo {
+  width: 70%;
+  display: block;
+}
+#managerment ul li div.image-container p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 75%;
+  line-height: 26px;
+  margin: 20px 0;
+}
+#managerment ul li div.image-container span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+#managerment ul li div.image-container span.post {
+  font-weight: 400;
+  color: gray;
+}
+#teams {
+  background: #f8f8f8;
+}
+#teams section.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#teams h3 {
+  text-align: center;
+  padding: 120px 0 60px;
+  font-weight: 700;
+  font-size: 45px;
+  width: 600px;
+  margin: 50px 0;
+}
+#teams ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#teams ul li {
+  text-align: center;
+  border-right: 1px dashed gray;
+  padding: 70px 10px;
+}
+#teams ul li:last-child {
+  border-right: none;
+}
+#teams ul li img {
+  display: inline-block;
+  width: 75%;
+}
+#teams ul li h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+#teams ul li p {
+  width: 60%;
+  margin: 0 auto;
+}
+#teams div.demo-card {
+  margin: 120px 0;
+  background-color: #d0dfff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  width: 40%;
+  border-radius: 10px;
+}
+#teams div.demo-card div.circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 20px 25px 84px -3px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  z-index: 4;
+}
+#teams div.demo-card div.circle img.star {
+  display: block;
+  width: 19px;
+}
+#teams div.demo-card p {
+  width: 60%;
+  font-size: 18px;
+}
+#teams div.demo-card a.button {
+  display: inline-block;
+  color: white;
+  border-radius: 7px;
+  font-weight: 600;
+  padding: 12px 15px;
+  background-color: blue;
+  margin: 20px 0;
+}
+#solution {
+  padding: 120px 0;
+}
+#solution h2 {
+  font-size: 45px;
+  font-weight: 700;
+  width: 40%;
+  text-align: center;
+  margin: 100px auto;
+}
+#solution ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+}
+#solution ul li {
+  width: 30%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+#solution ul li div.logo {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+#solution ul li div.logo img {
+  display: block;
+}
+#solution ul li h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+#solution ul li p {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 12px 0;
+  width: 75%;
+}
+#solution ul li a.button {
+  padding: 12px 15px;
+  border-radius: 7px;
+  margin: 12px 0;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+#solution ul li div.image-container {
+  display: block;
+  width: 300px;
+}
+#solution ul li div.image-container img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+}
+.bg-blue {
+  background-color: #d0dfff;
+}
+.buttonblue {
+  background-color: #0000ff;
+}
+.bg-yellow {
+  background-color: #fef4d7;
+}
+.buttonyellow {
+  background-color: #ffc836;
+}
+.bg-orange {
+  background-color: #ffe4da;
+}
+.buttonorange {
+  background-color: #ff794b;
+}
+#leading-brands ul li div.image-container a.link {
+  display: block;
+  text-decoration: underline;
+  padding-bottom: 1px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#leading-brands span.blog-post {
+  display: inline-block;
+  color: #0000ff;
+  margin: 10px 0;
+}
+#leading-brands span.normal-post {
+  display: inline-block;
+  margin: 10px 0;
+}
+#leading-brands div.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#leading-brands a.button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #0000ff;
+  color: white;
+  font-weight: 500;
+}
+#contact {
+  padding: 60px 0;
+  background-color: #000;
+  color: white;
+}
+#contact div.container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#contact div.container div.left {
+  width: 50%;
+}
+#contact div.container div.left h2 {
+  font-size: 54px;
+  font-weight: 700;
+  width: 55%;
+  margin-bottom: 30px;
+}
+#contact div.container div.left p {
+  color: #9b9b9b;
+  font-size: 19px;
+  width: 85%;
+  margin: 30px 0;
+  margin-bottom: 60px;
+}
+#contact div.container div.left div.dotted-line {
+  border: 1px dashed gray;
+  width: 25%;
+  margin: 30px 0;
+}
+#contact div.container div.left h5 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+#contact div.container div.left h6 {
+  width: 85%;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+  line-height: 30px;
+}
+#contact div.container div.left h6 i {
+}
+#contact div.container div.left b {
+  font-weight: 700;
+  display: block;
+}
+#contact div.container div.left span {
+  font-size: 16px;
+  color: #9b9b9b;
+  font-weight: 400;
+  margin: 5px 0;
+}
+#contact div.container div.left div.people-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 40%;
+  margin: 20px 0;
+}
+#contact div.company-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  width: 42%;
+  margin: 30px 0;
+}
+#contact div.container div.left div.people-image img {
+  display: block;
+  border-radius: 100%;
+  width: 60px;
+}
+#contact div.container div.left div.people-image img.active {
+  border: 3px solid #ff794b;
+  padding: 5px;
+}
+#contact div.company-image img {
+  display: block;
+  width: 120px;
+  height: 30px;
+}
+#contact div.container div.right {
+  padding: 60px;
+  background-color: white;
+  color: #000;
+  width: 48%;
+  border-radius: 10px;
+}
+#contact div.container div.right h4 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#contact div.container div.right form div.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+#contact div.container div.right form div.contact div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 25px;
+  width: 47%;
+}
+#contact div.container div.right form div.contact div.left input {
+  display: block;
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid #9b9b9b;
+  font-size: 20px;
+}
+#contact div.container div.right form div.contact div.left select {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #9b9b9b;
+  font-size: 20px;
+}
+#contact div.container div.right form div.contact div.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 25px;
+  width: 47%;
+  padding: 0px;
+}
+#contact div.container div.right form div.contact div.right input {
+  display: block;
+  width: 100%;
+  padding: 15px 5px;
+  border: 1px solid #9b9b9b;
+  font-size: 20px;
+}
+#contact div.container div.right form div.contact div.right select {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  border: 1px solid #9b9b9b;
+  font-size: 20px;
+}
+
+#contact div.container div.right form div {
+  display: flex;
+}
+#contact div.container div.right form p {
+  width: 96%;
+  display: inline;
+}
+#contact div.container div.right form div input[type="checkbox"] {
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  color: #9b9b9b;
+  display: inline;
+}
+#contact div.container div.right form div p {
+  width: 96%;
+  padding: 0 10px;
+  font-size: 18px;
+  display: inline;
+}
+#contact div.container div.right form div p span {
+  text-decoration: underline;
+}
+#contact div.container div.right form button {
+  margin: 40px 0;
+  border-radius: 10px;
+  display: block;
+  padding: 15px 0;
+  background-color: #0000ff;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer {
+  margin: 175px 0;
+}
+footer div.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div.top {
+}
+footer div.top ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer div.top ul li.main-footer {
+  width: 40%;
+}
+footer div.top ul li {
+  width: 18%;
+}
+footer div.top ul li h4 {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer div.top ul li p {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+footer div.top ul li.main-footer h4 {
+  width: 62%;
+  font-size: 30px;
+  font-weight: 600;
+}
+footer div.top ul li.main-footer div.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 50px 0;
+}
+footer div.top ul li.main-footer div.social-media img {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 15px;
+  filter: grayscale(100%);
+}
+footer div.top ul li div.solutions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 10px;
+}
+footer div.top ul li div.solutions img {
+  margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+}
+footer div.top ul li div.solutions span {
+  font-weight: 600;
+  font-size: 19px;
+  display: inline;
+}
+footer div.container div.bottom p {
+
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 20px 0;
+}
+footer div.container div.bottom span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer div.container div.bottom p img {
+  width: 30px;
+  margin-right: 12px;
+}
