@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "product_sansregular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+input,
+textarea,
+select {
+  font-family: "product_sansregular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #1c2c40;
+}
+a:hover,
+a .submit:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "product_sansregular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+@font-face {
+  font-family: "product_sansbold";
+  src: url("../fonts/product_sans_bold-webfont.woff2") format("woff2"), url("../fonts/product_sans_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "product_sansregular";
+  src: url("../fonts/product_sans_regular-webfont.woff2") format("woff2"), url("../fonts/product_sans_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  width: 150px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul li:first-child {
+  margin-left: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  height: 90vh;
+  padding: 40px 0;
+}
+main .container {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+}
+main .banner {
+  width: 60%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+main .banner h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main .banner span {
+  font-size: 5em;
+  font-weight: 700;
+  background-color: #333;
+  color: white;
+  padding: 12px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+main .banner p {
+  line-height: 1.5;
+  margin: 40px 0;
+  width: 75%;
+}
+main .banner a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 20px;
+  width: 200px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .banner a img {
+  display: inline-block;
+  width: 20%;
+}
+main .image {
+  width: 40%;
+  position: relative;
+}
+main .image img {
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */
