@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 60px;
+  background-color: #ffffff;
+}
+header .left h1 {
+  width: 100px;
+}
+header .left h1 a {
+  display: block;
+  width: 100%;
+}
+header .left h1 a img {
+  width: 100%;
+  display: block;
+}
+
+header .right ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header .right ul li {
+  margin-right: 20px;
+}
+header .right ul li:last-child {
+  margin-right: 0px;
+}
+header .right ul li a {
+  display: block;
+}
+header .right ul li a img {
+  display: block;
+}

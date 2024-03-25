@@ -1,0 +1,50 @@
+.containerDetails {
+  margin: 30px 0;
+}
+.containerDetails h1 {
+  margin-bottom: 20px;
+  font-size: 52px;
+}
+.containerDetails h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.containerDetails p {
+  font-size: 18px;
+}
+.categories {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.categories span {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+.categories img {
+  margin-left: 20px;
+  display: block;
+}
+.categories small {
+  margin-left: 5px;
+  font-family: "product_sans_bold";
+  font-size: 16px;
+}
+.gallery {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  gap: 10px 10px;
+}
+.gallery img {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+}
+.gallery img.feature {
+  grid-row: 1/3;
+  grid-column: 1/3;
+}

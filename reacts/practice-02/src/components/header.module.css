@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0 120px;
+}
+
+.header .left h1 {
+  width: 100px;
+}
+.header .left h1 a {
+  display: block;
+  width: 100%;
+}
+.header .left h1 a img {
+  width: 100%;
+  display: block;
+}
+
+.header .right a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #2681f8;
+  padding: 12px 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,44 @@
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 140px 0;
+  padding: 50px 150px;
+}
+.profileimage {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.profileimage img {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: -100px;
+}
+.container h4 {
+  font-family: "poppinsbold";
+  font-size: 26px;
+  margin: 20px 0;
+}
+.container span {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin: 20px 0;
+}
+.container span small {
+  font-size: 16px;
+  font-family: "poppinsbold";
+  color: #668bc5;
+}
+
+.container a {
+  font-family: "poppinsbold";
+  font-size: 13px;
+  align-self: flex-start;
+  margin: 10px 0;
+  color: #668bc5;
+}
