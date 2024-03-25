@@ -1,121 +1,272 @@
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
-	background: transparent;
-	font-weight: normal;
-	text-decoration: none;
-	outline: none;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-ol, ul {
-	list-style: none;
-}
-del {
-	text-decoration: line-through;
-}
-body {
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
-	font-size: 17px;
-	color: #1C2C40;
-	overflow-x: hidden;
-	min-width: 320px;
-	font-weight: 400;
-}
-input,textarea,select{
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
-	font-weight: 400;
-}
-
-a{
-	color: #1C2C40;
-}
-a:hover,.submit:hover{
-	filter: alpha(opacity = 85);
-	-moz-opacity: 0.85;
-	-khtml-opacity: 0.85;
-	opacity: 0.85;
-}
-.thumb{
-	display: block;
-}
-.thumb img{
-	display: block;
-	width:100%;
-}
-p{
-	line-height:1.6em;
-	font-size: 16px;
-	font-family: "GT-Eesti", Arial;
-	font-weight: 400;
-}
-.hidden{
-	display:none;
-}
-br.clear {
-	clear: both;
-	line-height: 0;
-}
-.wrapper {
-	width: 90%;
-	margin: 0 auto;
-	max-width:1040px;
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GT-Eesti';
-    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
-    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GT-Eesti';
-    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
-    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'GT-Eesti';
-    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
-    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'GT-Eesti';
-    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
-    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 ::placeholder {
-  color: #C0CCDA;
+  color: #c0ccda;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #C0CCDA;
+  color: #c0ccda;
 }
 
 ::-ms-input-placeholder {
-  color: #C0CCDA;
+  color: #c0ccda;
 }
 
 :root {
-  --main-bg-color: #23D3D3;
-  --main-heading-color:#1C2C40;
+  --main-bg-color: #23d3d3;
+  --main-heading-color: #1c2c40;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 255, 0, 0.3);
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
+a {
+  color: #1c2c40;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 400;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+header {
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding: 0 32px;
+  align-items: center;
+}
+header div.left {
+  display: flex;
+}
+header div.left h1 {
+  width: 110px;
+  margin-right: 40px;
+}
+header div.left h1 a {
+  display: block;
+}
+header div.left h1 a img {
+  display: block;
+  width: 100%;
+}
+header div.left ul {
+  display: flex;
+  align-items: center;
+}
+header div.left ul li {
+  margin-right: 40px;
+}
+header div.left ul li:last-child {
+  margin-right: 0;
+}
+header div ul li a {
+  letter-spacing: 0.5px;
+}
+header div.right {
+}
+header div.right ul {
+  display: flex;
+  align-items: center;
+}
+header div.right ul li {
+  margin-right: 40px;
+}
+header div.right ul li:last-child {
+  margin-right: 0;
+}
+header div.right ul li a.button {
+  padding: 12px 22px;
+  border-radius: 35px;
+  display: inline-block;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+#spotlight {
+  padding-top: 100px;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: 1180px;
+  background-position: right -220px bottom -100px;
+  height: 850px;
+}
+#spotlight section.content {
+  width: 60%;
+  padding-top: 105px;
+}
 
+#spotlight section.content h1 {
+  margin-top: 100px;
+  font-size: 53px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+#spotlight section.content p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  width: 60%;
+}
+#spotlight section.content a.button {
+  padding: 24px 32px;
+  border-radius: 35px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+#spotlight section.content div {
+  display: flex;
+  align-items: center;
+}
 
-
-
-
+#spotlight section.content div img {
+  margin-left: 15px;
+}
+#service {
+  padding-top: 140px;
+}
+#service section.top {
+  margin-bottom: 60px;
+  text-align: center;
+}
+#service section.top div.arrow {
+  margin-bottom: 40px;
+}
+#service section.top div.arrow img {
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+#service section.top h6 {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+#service section.top h3 {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 53px;
+  font-weight: 700;
+}
+#service section.content {
+  background: url(../images/whatis-bg.jpg) no-repeat;
+  background-position: right -300px center;
+  margin-top: 60px;
+  background-size: auto 108%;
+}
+#service section.content div.items {
+  max-width: 360px;
+}
+#service section.content div.item {
+  margin-bottom: 120px;
+}
+#service section.content div.item h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#service section.content div.item h4 span.label {
+  background-color: var(--main-bg-color);
+  color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#service section.content div.item p {
+}
+#service section.content div.item a.button {
+}
