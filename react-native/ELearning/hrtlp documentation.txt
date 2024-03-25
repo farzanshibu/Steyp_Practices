@@ -1,0 +1,40 @@
+Font Family :DM Sans
+link:https://fonts.google.com/specimen/DM+Sans
+Font Family :Quantico (FOR NUMBERS)
+link:https://fonts.google.com/specimen/Quantico
+
+Font Size -----------
+        H1 :        30px
+        H2 :        26px
+        H3 :        18px
+        H4 :        16px
+        H5 :        14px
+
+Colours -
+Black:212236
+Black-2:1B1C30
+blue:84E9F4
+dark blue:3935AB
+violet:51459F
+violet-2:7974B3
+white:FFFFFF
+light blue:F5F7FB
+red:DE3730
+red-2:E02B1D
+grey:A6A5A5
+grey-2:4E4E4E
+grey-3:EAEAEA
+grey-4:676767
+grey 5:747474
+yellow:FDBB64
+
+Packages
+Responsive :- https://www.npmjs.com/package/react-native-responsive-screen
+Otp :- https://www.npmjs.com/package/react-native-confirmation-code-field
+Progress bar :- https://www.npmjs.com/package/react-native-progress
+Slider :- 
+➔	* https://www.npmjs.com/package/react-native-reanimated-carousel
+➔	* https://www.npmjs.com/package/react-native-snap-carousel
+Video :-
+➔	https://www.npmjs.com/package/react-native-video
+➔	https://www.npmjs.com/package/react-native-video-player
