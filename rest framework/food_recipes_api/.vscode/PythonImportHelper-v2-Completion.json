@@ -1,0 +1,968 @@
+[
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Food",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Gallery",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Favorite",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipes",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Food",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Favorite",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionDenied",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
+        "isExtraImport": true,
+        "detail": "rest_framework.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http.response",
+        "description": "django.http.response",
+        "isExtraImport": true,
+        "detail": "django.http.response",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "api.v1.auth.serializers",
+        "description": "api.v1.auth.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = (\"id\", \"username\", \"email\", \"first_name\", \"last_name\", \"password\")\n        extra_kwargs = {\"password\": {\"write_only\": True}}\n    def create(self, validated_data):\n        user = User.objects.create_user(**validated_data)\n        return user",
+        "detail": "api.v1.auth.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "api.v1.auth.urls",
+        "description": "api.v1.auth.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"create/\", UserCreateAPIView.as_view(), name=\"create\"),\n    path(\"token/\", TokenObtainPairView.as_view(), name=\"token_obtain_pair\"),\n    path(\"token/refresh/\", TokenRefreshView.as_view(), name=\"token_refresh\"),\n]",
+        "detail": "api.v1.auth.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreateAPIView",
+        "kind": 6,
+        "importPath": "api.v1.auth.views",
+        "description": "api.v1.auth.views",
+        "peekOfCode": "class UserCreateAPIView(generics.CreateAPIView):\n    serializer_class = UserSerializer\n    permission_classes = [AllowAny]\n    def post(self, request, *args, **kwargs):\n        serializer = self.get_serializer(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        username = serializer.validated_data.get(\"username\")\n        if User.objects.filter(username=username).exists():\n            return Response(\n                {\"status_code\": 6001, \"message\": \"Username is Already Registered\"}",
+        "detail": "api.v1.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "FoodsSerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class FoodsSerializer(serializers.ModelSerializer):\n    favorites = serializers.SerializerMethodField()\n    class Meta:\n        model = Food\n        fields = (\"id\", \"name\", \"featured_image\", \"is_featured\", \"favorites\")\n    def get_favorites(self, instance):\n        favorites = Favorite.objects.filter(food=instance)\n        return favorites.count()\nclass GallerySerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GallerySerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class GallerySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Gallery\n        fields = (\"id\", \"image\")\nclass RecipesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Recipes\n        fields = (\"id\", \"name\", \"image\")\nclass FoodsDetailsSerializer(serializers.ModelSerializer):\n    category_name = serializers.SerializerMethodField()",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "RecipesSerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class RecipesSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Recipes\n        fields = (\"id\", \"name\", \"image\")\nclass FoodsDetailsSerializer(serializers.ModelSerializer):\n    category_name = serializers.SerializerMethodField()\n    gallery = serializers.SerializerMethodField()\n    favorites = serializers.SerializerMethodField()\n    recipes = serializers.SerializerMethodField()\n    class Meta:",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FoodsDetailsSerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class FoodsDetailsSerializer(serializers.ModelSerializer):\n    category_name = serializers.SerializerMethodField()\n    gallery = serializers.SerializerMethodField()\n    favorites = serializers.SerializerMethodField()\n    recipes = serializers.SerializerMethodField()\n    class Meta:\n        model = Food\n        fields = (\n            \"id\",\n            \"name\",",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FavoriteSerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class FavoriteSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Favorite\n        fields = (\"user\", \"food\")\nclass FoodSerializer(serializers.ModelSerializer):\n    recipes = RecipesSerializer(many=True, required=False)\n    gallery = GallerySerializer(many=True, required=False)\n    class Meta:\n        model = Food\n        fields = [",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "FoodSerializer",
+        "kind": 6,
+        "importPath": "api.v1.foods.serializers",
+        "description": "api.v1.foods.serializers",
+        "peekOfCode": "class FoodSerializer(serializers.ModelSerializer):\n    recipes = RecipesSerializer(many=True, required=False)\n    gallery = GallerySerializer(many=True, required=False)\n    class Meta:\n        model = Food\n        fields = [\n            \"id\",\n            \"name\",\n            \"featured_image\",\n            \"description\",",
+        "detail": "api.v1.foods.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "api.v1.foods.urls",
+        "description": "api.v1.foods.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", food, name=\"list-food-recipes\"),\n    path(\n        \"view/create/\",\n        food_create_view,\n        name=\"create-food-recipe\",\n    ),\n    path(\"view/<int:id>/\", food_details_and_delete, name=\"food-details\"),\n    path(\n        \"view/<int:id>/favorite/\",",
+        "detail": "api.v1.foods.urls",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 2,
+        "importPath": "api.v1.foods.views",
+        "description": "api.v1.foods.views",
+        "peekOfCode": "def food(request):\n    # add filter option form request\n    category_filter = request.GET.get(\"filter\")\n    if category_filter is not None and not category_filter:\n        return Response({\"status_code\": 6001, \"message\": \"Invalid Request\"}, status=400)\n    if category_filter and category_filter.isdigit():\n        foods = Food.objects.filter(is_deleted=False, category_name=category_filter)\n    else:\n        foods = Food.objects.filter(is_deleted=False)\n    context = {\"request\": request}",
+        "detail": "api.v1.foods.views",
+        "documentation": {}
+    },
+    {
+        "label": "favorite_view",
+        "kind": 2,
+        "importPath": "api.v1.foods.views",
+        "description": "api.v1.foods.views",
+        "peekOfCode": "def favorite_view(request):\n    user = request.user\n    favorites = Favorite.objects.filter(user=user)\n    favorites_food = Food.objects.filter(\n        id__in=favorites.values_list(\"food_id\"), is_deleted=False\n    )\n    context = {\"request\": request}\n    favorite_serializer = FoodsSerializer(favorites_food, many=True, context=context)\n    response_data = {\"status_code\": 6000, \"data\": favorite_serializer.data}\n    return Response(response_data)",
+        "detail": "api.v1.foods.views",
+        "documentation": {}
+    },
+    {
+        "label": "food_details_and_delete",
+        "kind": 2,
+        "importPath": "api.v1.foods.views",
+        "description": "api.v1.foods.views",
+        "peekOfCode": "def food_details_and_delete(request, id):\n    try:\n        food = Food.objects.get(id=id, is_deleted=False)\n    except Food.DoesNotExist:\n        return Response({\"status_code\": 6001, \"message\": \"Food Recipes not found\"})\n    if request.method == \"GET\":\n        context = {\"request\": request}\n        food_details_serializer = FoodsDetailsSerializer(\n            food, context=context, many=False\n        )",
+        "detail": "api.v1.foods.views",
+        "documentation": {}
+    },
+    {
+        "label": "favorite_toggle_view",
+        "kind": 2,
+        "importPath": "api.v1.foods.views",
+        "description": "api.v1.foods.views",
+        "peekOfCode": "def favorite_toggle_view(request, id):\n    user = request.user\n    try:\n        favorite = Favorite.objects.get(user=user, food_id=id)\n        favorite.delete()\n        return Response({\"status_code\": 6000, \"message\": \"Removed from Favourite\"})\n    except Favorite.DoesNotExist:\n        favorite_data = {\"user\": user.id, \"food\": id}\n        serializer = FavoriteSerializer(data=favorite_data)\n        if serializer.is_valid():",
+        "detail": "api.v1.foods.views",
+        "documentation": {}
+    },
+    {
+        "label": "food_create_view",
+        "kind": 2,
+        "importPath": "api.v1.foods.views",
+        "description": "api.v1.foods.views",
+        "peekOfCode": "def food_create_view(request):\n    user = request.user\n    serializer = FoodSerializer(data=request.data, context={\"user\": user})\n    if serializer.is_valid():\n        serializer.save()\n        return Response({\"status_code\": 6000, \"message\": \"New Food Recipe Created\"})\n    return Response(\n        {\n            \"status_code\": 6001,\n            \"message\": \"Validation Error Occurred\",",
+        "detail": "api.v1.foods.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "food_recipes_api.asgi",
+        "description": "food_recipes_api.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "food_recipes_api.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-gwabb)%jp@32=*-6+f+*)&^afh=qkpo$ncscgk_#f3*sy5h*n3\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-gwabb)%jp@32=*-6+f+*)&^afh=qkpo$ncscgk_#f3*sy5h*n3\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"rest_framework_simplejwt\",\n    \"web\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"food_recipes_api.urls\"",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "ROOT_URLCONF = \"food_recipes_api.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"templates\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"food_recipes_api.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = \"/media/\"",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nREST_FRAMEWORK = {",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",\n]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n        \"rest_framework.authentication.BasicAuthentication\",\n        \"rest_framework.authentication.SessionAuthentication\",",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / \"media\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n        \"rest_framework.authentication.BasicAuthentication\",\n        \"rest_framework.authentication.SessionAuthentication\",\n    ]",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nREST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n        \"rest_framework.authentication.BasicAuthentication\",\n        \"rest_framework.authentication.SessionAuthentication\",\n    ]\n}",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "food_recipes_api.settings",
+        "description": "food_recipes_api.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"DEFAULT_AUTHENTICATION_CLASSES\": [\n        \"rest_framework_simplejwt.authentication.JWTAuthentication\",\n        \"rest_framework.authentication.BasicAuthentication\",\n        \"rest_framework.authentication.SessionAuthentication\",\n    ]\n}",
+        "detail": "food_recipes_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "food_recipes_api.urls",
+        "description": "food_recipes_api.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"\", include(\"web.urls\")),\n    path(\"api/v1/foods/\", include(\"api.v1.foods.urls\")),\n    path(\"api/v1/auth/\", include(\"api.v1.auth.urls\")),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "food_recipes_api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "food_recipes_api.wsgi",
+        "description": "food_recipes_api.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "food_recipes_api.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0001_initial",
+        "description": "web.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Category\",\n            fields=[\n                (",
+        "detail": "web.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0002_alter_category_image_alter_gallery_image_recipes",
+        "description": "web.migrations.0002_alter_category_image_alter_gallery_image_recipes",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"web\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"category\",\n            name=\"image\",\n            field=models.ImageField(blank=True, null=True, upload_to=\"category/\"),\n        ),",
+        "detail": "web.migrations.0002_alter_category_image_alter_gallery_image_recipes",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0003_food_user_alter_category_image_and_more",
+        "description": "web.migrations.0003_food_user_alter_category_image_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"web\", \"0002_alter_category_image_alter_gallery_image_recipes\"),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"food\",\n            name=\"user\",\n            field=models.ForeignKey(",
+        "detail": "web.migrations.0003_food_user_alter_category_image_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0004_rename_like_favorite",
+        "description": "web.migrations.0004_rename_like_favorite",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"web\", \"0003_food_user_alter_category_image_and_more\"),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name=\"Like\",\n            new_name=\"Favorite\",\n        ),",
+        "detail": "web.migrations.0004_rename_like_favorite",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryAdmin",
+        "kind": 6,
+        "importPath": "web.admin",
+        "description": "web.admin",
+        "peekOfCode": "class CategoryAdmin(admin.ModelAdmin):\n    list_display = [\"name\", \"image\"]\nadmin.site.register(Category, CategoryAdmin)\nclass RecipesInline(admin.TabularInline):\n    model = Recipes\nclass GalleryInline(admin.TabularInline):\n    model = Gallery\nclass FoodAdmin(admin.ModelAdmin):\n    inlines = [RecipesInline, GalleryInline]\n    list_display = [\"name\", \"description\", \"is_featured\", \"is_deleted\"]",
+        "detail": "web.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RecipesInline",
+        "kind": 6,
+        "importPath": "web.admin",
+        "description": "web.admin",
+        "peekOfCode": "class RecipesInline(admin.TabularInline):\n    model = Recipes\nclass GalleryInline(admin.TabularInline):\n    model = Gallery\nclass FoodAdmin(admin.ModelAdmin):\n    inlines = [RecipesInline, GalleryInline]\n    list_display = [\"name\", \"description\", \"is_featured\", \"is_deleted\"]\nadmin.site.register(Food, FoodAdmin)\nadmin.site.register(Favorite)",
+        "detail": "web.admin",
+        "documentation": {}
+    },
+    {
+        "label": "GalleryInline",
+        "kind": 6,
+        "importPath": "web.admin",
+        "description": "web.admin",
+        "peekOfCode": "class GalleryInline(admin.TabularInline):\n    model = Gallery\nclass FoodAdmin(admin.ModelAdmin):\n    inlines = [RecipesInline, GalleryInline]\n    list_display = [\"name\", \"description\", \"is_featured\", \"is_deleted\"]\nadmin.site.register(Food, FoodAdmin)\nadmin.site.register(Favorite)",
+        "detail": "web.admin",
+        "documentation": {}
+    },
+    {
+        "label": "FoodAdmin",
+        "kind": 6,
+        "importPath": "web.admin",
+        "description": "web.admin",
+        "peekOfCode": "class FoodAdmin(admin.ModelAdmin):\n    inlines = [RecipesInline, GalleryInline]\n    list_display = [\"name\", \"description\", \"is_featured\", \"is_deleted\"]\nadmin.site.register(Food, FoodAdmin)\nadmin.site.register(Favorite)",
+        "detail": "web.admin",
+        "documentation": {}
+    },
+    {
+        "label": "WebConfig",
+        "kind": 6,
+        "importPath": "web.apps",
+        "description": "web.apps",
+        "peekOfCode": "class WebConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"web\"",
+        "detail": "web.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Food",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Food(models.Model):\n    name = models.CharField(max_length=50)\n    featured_image = models.ImageField(\n        upload_to=\"Food/Featured-Image\",\n        null=True,\n        blank=True,\n        default=\"Food/Featured-Image/dfir.png\",\n    )\n    description = models.TextField()\n    category_name = models.ForeignKey(\"Category\", on_delete=models.CASCADE)",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=50)\n    image = models.ImageField(upload_to=\"Category/\", null=True, blank=True)\n    def __str__(self):\n        return self.name\nclass Recipes(models.Model):\n    food = models.ForeignKey(\"food\", on_delete=models.CASCADE)\n    name = models.CharField(max_length=50)\n    image = models.ImageField(\n        upload_to=\"Recipes/\", null=True, blank=True, default=\"Recipes/dfir.png\"",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Recipes",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Recipes(models.Model):\n    food = models.ForeignKey(\"food\", on_delete=models.CASCADE)\n    name = models.CharField(max_length=50)\n    image = models.ImageField(\n        upload_to=\"Recipes/\", null=True, blank=True, default=\"Recipes/dfir.png\"\n    )\n    def __str__(self):\n        return self.name\nclass Gallery(models.Model):\n    food = models.ForeignKey(\"food\", on_delete=models.CASCADE)",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Gallery",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Gallery(models.Model):\n    food = models.ForeignKey(\"food\", on_delete=models.CASCADE)\n    image = models.ImageField(\n        upload_to=\"Gallery/\", null=True, blank=True, default=\"Gallery/dfir.png\"\n    )\nclass Favorite(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    food = models.ForeignKey(Food, on_delete=models.CASCADE)\n    class Meta:\n        unique_together = ((\"user\", \"food\"),)",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Favorite",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Favorite(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    food = models.ForeignKey(Food, on_delete=models.CASCADE)\n    class Meta:\n        unique_together = ((\"user\", \"food\"),)\n    def __str__(self):\n        return f\"{self.user.username} favorites {self.food.name}\"",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "web.urls",
+        "description": "web.urls",
+        "peekOfCode": "app_name = \"web\"\nurlpatterns = [\n    path(\"\", index, name=\"home\"),\n]",
+        "detail": "web.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "web.urls",
+        "description": "web.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", index, name=\"home\"),\n]",
+        "detail": "web.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def index(request):\n    return HttpResponse(\"<h1>Foods Recipes App</h1>\")",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"food_recipes_api.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
