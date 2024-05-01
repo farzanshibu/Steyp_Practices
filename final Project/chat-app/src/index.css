@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Bold.woff2") format("woff2"),
+    url("./fonts/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Medium.woff2") format("woff2"),
+    url("./fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Light.woff2") format("woff2"),
+    url("./fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+    url("./fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --black: #0a0e0f;
+  --black2: #161b1c;
+  --grey: #252c2e;
+  --lightBlue: #48a5c3;
+  --blue: #2b6bc5;
+  --H1: 24px;
+  --H2: 20px;
+  --H3: 18px;
+  --H4: 16px;
+  --H4: 14px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--black2);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+a,
+ul,
+li {
+  list-style-type: none;
+}
+ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pulse {
+    opacity: 1;
+}

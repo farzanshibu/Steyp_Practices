@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url('./src/assets/fonts/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url('./src/assets/fonts/DMSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DMSans-Light';
+    src: url('./src/assets/fonts/DMSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DMSans-Black';
+    src: url('./src/assets/fonts/DMSans—BIack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quantico-Bold';
+    src: url('./src/assets/fonts/Quantico-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quantico-Regular';
+    src: url('./src/assets/fonts/Quantico-Regular.ttf') format('truetype');
+}

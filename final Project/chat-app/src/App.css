@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Bold.woff2") format("woff2"),
+    url("./fonts/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Medium.woff2") format("woff2"),
+    url("./fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Light.woff2") format("woff2"),
+    url("./fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+    url("./fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+::root {
+  --black: #0a0e0f;
+  --black2: #161b1c;
+  --grey: #252c2e;
+  --lightBlue: #48a5c3;
+  --blue: #2b6bc5;
+
+  --H1: 24px;
+  --H2: 20px;
+  --H3: 18px;
+  --H4: 16px;
+  --H4: 14px;
+}
+h1 {
+  font-size: var(--H1);
+}
+h2 {
+  font-size: var(--H2);
+}
+h3 {
+  font-size: var(--H3);
+}
+h4 {
+  font-size: var(--H4);
+}
+h5 {
+  font-size: var(--H5);
+}
+h6 {
+  font-size: var(--H6);
+}

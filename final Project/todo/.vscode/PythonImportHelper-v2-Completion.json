@@ -1,0 +1,1007 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "auths.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "auths.validators",
+        "description": "auths.validators",
+        "detail": "auths.validators",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetails",
+        "importPath": "auths.models",
+        "description": "auths.models",
+        "isExtraImport": true,
+        "detail": "auths.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetails",
+        "importPath": "auths.models",
+        "description": "auths.models",
+        "isExtraImport": true,
+        "detail": "auths.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetails",
+        "importPath": "auths.models",
+        "description": "auths.models",
+        "isExtraImport": true,
+        "detail": "auths.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetails",
+        "importPath": "auths.models",
+        "description": "auths.models",
+        "isExtraImport": true,
+        "detail": "auths.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "auths",
+        "description": "auths",
+        "isExtraImport": true,
+        "detail": "auths",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyAuthenticationForm",
+        "importPath": "auths.forms",
+        "description": "auths.forms",
+        "isExtraImport": true,
+        "detail": "auths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyUserCreationForm",
+        "importPath": "auths.forms",
+        "description": "auths.forms",
+        "isExtraImport": true,
+        "detail": "auths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "importPath": "web.models",
+        "description": "web.models",
+        "isExtraImport": true,
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auths.migrations.0001_initial",
+        "description": "auths.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"StudentDetails\",\n            fields=[\n                (",
+        "detail": "auths.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auths.migrations.0002_alter_studentdetails_options",
+        "description": "auths.migrations.0002_alter_studentdetails_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"auths\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name=\"studentdetails\",\n            options={\"verbose_name_plural\": \"Student Details\"},\n        ),\n    ]",
+        "detail": "auths.migrations.0002_alter_studentdetails_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auths.migrations.0003_studentdetails_image",
+        "description": "auths.migrations.0003_studentdetails_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"auths\", \"0002_alter_studentdetails_options\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"studentdetails\",\n            name=\"image\",\n            field=models.ImageField(default=\"images/default.webp\", upload_to=\"images/\"),\n        ),",
+        "detail": "auths.migrations.0003_studentdetails_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "auths.migrations.0004_alter_studentdetails_image",
+        "description": "auths.migrations.0004_alter_studentdetails_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"auths\", \"0003_studentdetails_image\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"studentdetails\",\n            name=\"image\",\n            field=models.ImageField(\n                blank=True,",
+        "detail": "auths.migrations.0004_alter_studentdetails_image",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetailsAdmin",
+        "kind": 6,
+        "importPath": "auths.admin",
+        "description": "auths.admin",
+        "peekOfCode": "class StudentDetailsAdmin(admin.ModelAdmin):\n    list_display = [\"id\", \"full_name\", \"student_class\", \"division\"]\nadmin.site.register(StudentDetails, StudentDetailsAdmin)",
+        "detail": "auths.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AuthsConfig",
+        "kind": 6,
+        "importPath": "auths.apps",
+        "description": "auths.apps",
+        "peekOfCode": "class AuthsConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"auths\"",
+        "detail": "auths.apps",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyAuthenticationForm",
+        "kind": 6,
+        "importPath": "auths.forms",
+        "description": "auths.forms",
+        "peekOfCode": "class PrettyAuthenticationForm(AuthenticationForm):\n    username = forms.CharField(\n        widget=forms.TextInput(attrs={\"class\": \"form-control form-control-lg\"})\n    )\n    password = forms.CharField(\n        widget=forms.PasswordInput(attrs={\"class\": \"form-control form-control-lg\"})\n    )\n    class Meta:\n        fields = [\"username\", \"password\"]\nclass PrettyUserCreationForm(UserCreationForm):",
+        "detail": "auths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyUserCreationForm",
+        "kind": 6,
+        "importPath": "auths.forms",
+        "description": "auths.forms",
+        "peekOfCode": "class PrettyUserCreationForm(UserCreationForm):\n    full_name = forms.CharField(\n        widget=forms.TextInput(attrs={\"class\": \"form-control form-control-lg\"}),\n        max_length=32,\n        help_text=\"Full name\",\n    )\n    student_class = forms.CharField(\n        widget=forms.NumberInput(attrs={\"class\": \"form-control form-control-lg\"}),\n        max_length=3,\n        help_text=\"Class\",",
+        "detail": "auths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetails",
+        "kind": 6,
+        "importPath": "auths.models",
+        "description": "auths.models",
+        "peekOfCode": "class StudentDetails(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    full_name = models.CharField(max_length=32)\n    student_class = models.IntegerField()\n    division = models.CharField(max_length=1)\n    image = models.ImageField(\n        upload_to=\"images/\",\n        default=\"images/default.webp\",\n        validators=[validate_file_extension],\n        blank=True,",
+        "detail": "auths.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "auths.urls",
+        "description": "auths.urls",
+        "peekOfCode": "app_name = \"auths\"\nurlpatterns = [\n    path(\"login/\", views.LoginView, name=\"login\"),\n    path(\"logout/\", views.LogoutView, name=\"logout\"),\n    path(\"signup/\", views.SignupView, name=\"signup\"),\n]",
+        "detail": "auths.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "auths.urls",
+        "description": "auths.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"login/\", views.LoginView, name=\"login\"),\n    path(\"logout/\", views.LogoutView, name=\"logout\"),\n    path(\"signup/\", views.SignupView, name=\"signup\"),\n]",
+        "detail": "auths.urls",
+        "documentation": {}
+    },
+    {
+        "label": "validate_file_extension",
+        "kind": 2,
+        "importPath": "auths.validators",
+        "description": "auths.validators",
+        "peekOfCode": "def validate_file_extension(value):\n    from django.core.exceptions import ValidationError\n    ext = os.path.splitext(value.name)[1]  # [0] returns path+filename\n    valid_extensions = [\".pdf\", \".doc\", \".docx\", \".jpg\", \".png\", \".xlsx\", \".xls\"]\n    if not ext.lower() in valid_extensions:\n        raise ValidationError(\"Unsupported file extension.\")",
+        "detail": "auths.validators",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "kind": 2,
+        "importPath": "auths.views",
+        "description": "auths.views",
+        "peekOfCode": "def LoginView(request):\n    if request.user.is_authenticated:\n        return HttpResponseRedirect(\"/\")\n    if request.method == \"POST\":\n        form = PrettyAuthenticationForm(request, data=request.POST)\n        if form.is_valid():\n            username = form.cleaned_data[\"username\"]\n            password = form.cleaned_data[\"password\"]\n            user = authenticate(request, username=username, password=password)\n            if user is not None:",
+        "detail": "auths.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 2,
+        "importPath": "auths.views",
+        "description": "auths.views",
+        "peekOfCode": "def LogoutView(request):\n    logout(request)\n    return HttpResponseRedirect(\"/auth/login/\")\ndef SignupView(request):\n    if request.user.is_authenticated:\n        return HttpResponseRedirect(\"/\")\n    if request.method == \"POST\":\n        form = PrettyUserCreationForm(request.POST, request.FILES)\n        # If form is valid, create user\n        if form.is_valid():",
+        "detail": "auths.views",
+        "documentation": {}
+    },
+    {
+        "label": "SignupView",
+        "kind": 2,
+        "importPath": "auths.views",
+        "description": "auths.views",
+        "peekOfCode": "def SignupView(request):\n    if request.user.is_authenticated:\n        return HttpResponseRedirect(\"/\")\n    if request.method == \"POST\":\n        form = PrettyUserCreationForm(request.POST, request.FILES)\n        # If form is valid, create user\n        if form.is_valid():\n            user = form.save()\n            # Authenticate user\n            login(request, user)",
+        "detail": "auths.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "todo.asgi",
+        "description": "todo.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "todo.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-&!7$5g)^0-q$by-ln9vs(dx73v9to#)0-5q=6@aa^+l5f321lq\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-&!7$5g)^0-q$by-ln9vs(dx73v9to#)0-5q=6@aa^+l5f321lq\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"web\",",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"web\",\n    \"auths\",\n]",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"todo.urls\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "ROOT_URLCONF = \"todo.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"template\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [\"template\"],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"todo.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"/\"\nLOGOUT_REDIRECT_URL = \"/auth/login/\"\n# Internationalization\n# https://docs.djangoproject.com/en/5.0/topics/i18n/\nLANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/auth/login/\"\n# Internationalization\n# https://docs.djangoproject.com/en/5.0/topics/i18n/\nLANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = \"static/\"\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\nSTATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting\nFILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR / \"static\"]\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting\nFILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting\nFILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR / \"media\")\n# Set maximum upload size in bytes\nMAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting\nFILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_UPLOAD_SIZE",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "MAX_UPLOAD_SIZE = 5242880  # 5 MB\n# Add or modify the FILE_UPLOAD_MAX_MEMORY_SIZE setting\nFILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FILE_UPLOAD_MAX_MEMORY_SIZE",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "FILE_UPLOAD_MAX_MEMORY_SIZE = MAX_UPLOAD_SIZE\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "todo.settings",
+        "description": "todo.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "todo.urls",
+        "description": "todo.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"auth/\", include(\"auths.urls\")),\n    path(\"\", include(\"web.urls\")),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "todo.wsgi",
+        "description": "todo.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "todo.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0001_initial",
+        "description": "web.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"auths\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Todos\",\n            fields=[\n                (",
+        "detail": "web.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0002_rename_completed_todos_iscompleted_todos_isdeleted",
+        "description": "web.migrations.0002_rename_completed_todos_iscompleted_todos_isdeleted",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"web\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name=\"todos\",\n            old_name=\"completed\",\n            new_name=\"isCompleted\",\n        ),",
+        "detail": "web.migrations.0002_rename_completed_todos_iscompleted_todos_isdeleted",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "web.migrations.0003_alter_todos_options",
+        "description": "web.migrations.0003_alter_todos_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"web\", \"0002_rename_completed_todos_iscompleted_todos_isdeleted\"),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name=\"todos\",\n            options={\"verbose_name_plural\": \"TODOs\"},\n        ),\n    ]",
+        "detail": "web.migrations.0003_alter_todos_options",
+        "documentation": {}
+    },
+    {
+        "label": "TodoseAdmin",
+        "kind": 6,
+        "importPath": "web.admin",
+        "description": "web.admin",
+        "peekOfCode": "class TodoseAdmin(admin.ModelAdmin):\n    list_display = [\"id\", \"title\", \"user\", \"isCompleted\"]\nadmin.site.register(Todos, TodoseAdmin)",
+        "detail": "web.admin",
+        "documentation": {}
+    },
+    {
+        "label": "WebConfig",
+        "kind": 6,
+        "importPath": "web.apps",
+        "description": "web.apps",
+        "peekOfCode": "class WebConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"web\"",
+        "detail": "web.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Todos",
+        "kind": 6,
+        "importPath": "web.models",
+        "description": "web.models",
+        "peekOfCode": "class Todos(models.Model):\n    title = models.CharField(max_length=32)\n    user = models.ForeignKey(StudentDetails, on_delete=models.CASCADE)\n    isCompleted = models.BooleanField(default=False)\n    isDeleted = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.title\n    class Meta:",
+        "detail": "web.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "web.urls",
+        "description": "web.urls",
+        "peekOfCode": "app_name = \"web\"\nurlpatterns = [\n    path(\"\", views.TodoHomeView, name=\"todos\"),\n    path(\"add/\", views.AddTodo, name=\"add-todos\"),\n    path(\"delete/<int:id>/\", views.DeleteTodo, name=\"delete-todos\"),\n    path(\"update/<int:id>/\", views.UpdateTodo, name=\"update-todos\"),\n    path(\"complete/<int:id>/\", views.CompleteTodo, name=\"complete-todos\"),\n]",
+        "detail": "web.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "web.urls",
+        "description": "web.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.TodoHomeView, name=\"todos\"),\n    path(\"add/\", views.AddTodo, name=\"add-todos\"),\n    path(\"delete/<int:id>/\", views.DeleteTodo, name=\"delete-todos\"),\n    path(\"update/<int:id>/\", views.UpdateTodo, name=\"update-todos\"),\n    path(\"complete/<int:id>/\", views.CompleteTodo, name=\"complete-todos\"),\n]",
+        "detail": "web.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TodoHomeView",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def TodoHomeView(request):\n    user = request.user\n    User = StudentDetails.objects.get(user=request.user)\n    # If the user is staff, show all todos, otherwise only show todos of the current user\n    if user.is_staff:\n        all_todos = Todos.objects.all().order_by(\"isCompleted\", \"-created_at\")\n    else:\n        all_todos = Todos.objects.filter(user=User).order_by(\"isCompleted\")\n    context = {\n        \"all_todos\": all_todos,",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "AddTodo",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def AddTodo(request):\n    if request.method == \"POST\":\n        task = request.POST.get(\"task\")\n        if task:\n            # Create and save the new todo\n            User = StudentDetails.objects.get(user=request.user)\n            Todos.objects.create(title=task, user=User)\n    return HttpResponseRedirect(\"/\")\n@login_required(login_url=\"/auth/login/\")\ndef DeleteTodo(request, id):",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteTodo",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def DeleteTodo(request, id):\n    try:\n        # Delete the todo with the given id\n        todo = Todos.objects.get(id=id)\n        User = StudentDetails.objects.get(user=request.user)\n        if todo is None:\n            return HttpResponse(\"This todo does not exist\")\n        if todo.isDeleted:\n            return HttpResponse(\"This todo is already deleted\")\n        if todo.user != User and not request.user.is_staff:",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateTodo",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def UpdateTodo(request, id):\n    todo = Todos.objects.get(id=id)\n    User = StudentDetails.objects.get(user=request.user)\n    if todo is None:\n        return HttpResponse(\"This todo does not exist\")\n    if todo.isDeleted:\n        return HttpResponse(\"This todo is deleted\")\n    if todo.user != User and not request.user.is_staff:\n        return HttpResponse(\"You don't have permission to complete this todo\")\n    if request.method == \"POST\":",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "CompleteTodo",
+        "kind": 2,
+        "importPath": "web.views",
+        "description": "web.views",
+        "peekOfCode": "def CompleteTodo(request, id):\n    todo = Todos.objects.get(id=id)\n    User = StudentDetails.objects.get(user=request.user)\n    if todo is None:\n        return HttpResponse(\"This todo does not exist\")\n    if todo.isDeleted:\n        return HttpResponse(\"This todo is deleted\")\n    if todo.user != User and not request.user.is_staff:\n        return HttpResponse(\"You don't have permission to complete this todo\")\n    todo.isCompleted = not todo.isCompleted",
+        "detail": "web.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"todo.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

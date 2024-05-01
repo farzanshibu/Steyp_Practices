@@ -1,0 +1,118 @@
+{% extends 'base.html' %} {% block title %}
+Home
+{% endblock %} {% block content %}
+{% if user.is_authenticated %}
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-12 col-xl-10">
+        <div class="card mask-custom">
+          <div class="card-body p-4 text-white">
+            <div class="text-center pt-3 pb-2">
+              <div class="d-flex justify-content-end align-items-center">
+                <img src="{{ User.image.url }}" class="me-3" alt="avatar 1"
+                  style="width: 70px; height: 70px; object-fit: cover;  border-radius: 100%;" />
+                <h3 class="h4 me-3">{{ User.full_name|title }}</h3>
+                <form action="{% url 'auths:logout' %}" method="post">
+                  {% csrf_token %}
+                  <button class="btn btn-outline-info rounded-pill"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"
+                    type="submit">Log Out</button>
+                </form>
+              </div>
+              <img class="pt-3" src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-todo-list/check1.webp"
+                alt="Check" width="60" />
+              <h2 class="my-4">Task List</h2>
+            </div>
+            {% if updateTodo %}
+            <form action="{% url 'web:update-todos' updateTodo.id %}" method="post">
+              {% csrf_token %}
+              <div class="input-group mb-3 h6">
+                <input type="text" class="form-control p-3" placeholder="Add Task" aria-label="Add Task"
+                  aria-describedby="button-addon2" name="task" value="{{ updateTodo.title }}" />
+                <button class="btn btn-outline-info fs-5" style="width: 8rem;" type="submit"
+                  id="button-addon2">Update</button>
+              </div>
+            </form>
+            {% else %}
+            <form action="{% url 'web:add-todos' %}" method="post">
+              {% csrf_token %}
+              <div class="input-group mb-3 h6">
+                <input type="text" class="form-control p-3" placeholder="Add Task" aria-label="Add Task"
+                  aria-describedby="button-addon2" name="task" />
+                <button class="btn btn-outline-info fs-5" style="width: 8rem;" type="submit"
+                  id="button-addon2">Add</button>
+              </div>
+            </form>
+            {% endif %}
+            <div style="max-height: 400px; overflow-y: auto;">
+              <table class="table text-white mb-0 ">
+                <thead class="sticky-top top-0">
+                  <tr>
+                    <th scope="col">Team Member</th>
+                    <th scope="col">Task</th>
+                    <th scope="col">Progress</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  {% for todo in all_todos %}
+                  {% if not todo.isDeleted %}
+                  <tr class="fw-normal">
+                    <th>
+                      <img src="{{ todo.user.image.url }}" alt="avatar 1"
+                        style="width: 70px; height: 70px; object-fit: cover;  border-radius: 100%;" />
+                      <span class="ms-2">{{ todo.user.full_name|title }}</span>
+                    </th>
+                    <td class="align-middle">
+                      {% if todo.isCompleted %}
+                      <i class="fas fa-check-circle fa-lg text-success me-3"></i>
+                      <del>{{ todo.title|title }}</del>
+                      {% else %}
+                      <i class="fa-solid fa-circle-xmark fa-lg text-danger me-3"></i>
+                      <span>{{ todo.title|title }}</span>
+                      {% endif %}
+                    </td>
+                    <td class="align-middle">
+                      {% if todo.isCompleted %}
+                      <span class="badge bg-success">Completed</span>
+                      {% else %}
+                      <span class="badge bg-warning text-dark">Not Completed</span>
+                      {% endif %}
+                    </td>
+                    <td class="align-middle">
+                      <a href="{% url 'web:complete-todos' todo.id %}" data-mdb-toggle="tooltip" title="Done">
+                        {% if todo.isCompleted %}
+                        <i class="fas fa-undo fa-lg text-warning me-3"></i>
+                        {% else %}
+                        <i class="far fa-check-circle fa-lg text-success me-3"></i>
+                        {% endif %}
+                      </a>
+                      <a href="{% url 'web:update-todos' todo.id %}" data-mdb-toggle="tooltip" title="Edit"><i
+                          class="fas fa-edit fa-lg text-info me-3"></i></a>
+                      <a href="{% url 'web:delete-todos' todo.id %}" data-mdb-toggle="tooltip" title="Remove"><i
+                          class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<p>You are not logged in</p>
+<a href="{% url 'auths:login' %}">Log In</a>
+{% endif %}
+<style>
+  a {
+    text-decoration: none;
+  }
+</style>
+{% endblock %}
